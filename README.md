@@ -16,7 +16,7 @@
 
 
 # Начало работы
-1. Клонировать [репризиторий](https://github.com/SergeevKostia/qa-diplom) командой `git clone`;
+1. Клонировать [репозиторий](https://github.com/SergeevKostia/qa-diplom) командой `git clone`;
 ## Prerequisites
 1. Установить Docker Desktop;
 2. Установить IntelliJ IDEA;
@@ -37,9 +37,6 @@
    * СУБД PostgreSQL использовать команду:
      `.\gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app" allureReport`
 6. Открыть браузер и ввести в адресную строку `http://localhost:8080/`.
-## Запуск тестов
-1. Открыть IDEA;
-2. Ввести в терминал команду: `./gradlew clean test`.
 ## Генерация и открытие отчетов
 1. Для генерации отчета ввести в терминал команду: `./gradlew allureServe`;
 2. После генерации отчет появится в окне браузера.
